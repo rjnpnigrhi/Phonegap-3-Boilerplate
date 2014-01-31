@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<widget id="com.rjnpnigrhi.myapp" version="1.0" xmlns="http://www.w3.org/ns/widgets">
+    <name>myapp</name>
+    <description>
+        Phonegap Boilerplate
+    </description>
+    <author email="rjnpnigrhi@gmail.com" href="http://www.forcejs.com">
+        Rajan Panigrahi
+    </author>
+	<access origin="*" />
+	<content src="index.html" />
+	
+	<preference name="loglevel" value="ERROR" />
+	<preference name="phonegap-version" value="3.1.0" />
+	<preference name="orientation" value="portrait" />
+	<preference name="Fullscreen" value="false" />
+    <preference name="WebViewBounce" value="true" />
+    <preference name="DisallowOverscroll" value="false"/>
+    <preference name="HideKeyboardFormAccessoryBar" value="false"/>
+	
+	<!-- Android preferences -->
+	<preference name="android-minSdkVersion" value="10" />
+	<preference name="android-targetSdkVersion" value="19" />
+	<preference name="android-installLocation" value="internalOnly" />
+	<preference name="android-windowSoftInputMode" value="stateUnspecified" />
+	<preference name="splash-screen-duration" value="0" />
+	
+	<!-- Other preferences -->
+	<preference name="InAppBrowserStorageEnabled" value="true" />
+	<preference name="loadUrlTimeoutValue" value="60000" />
+	<preference name="backgroundColor" value="0x000" />
+	<preference name="errorUrl" value="index.html" />
+	
+	<!-- PhoneGap features -->
+	<feature name="App"><param name="android-package" value="org.apache.cordova.App" /></feature>
+	
+	<!-- PhoneGap optional plugins -->
+	<feature name="Battery"><param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener" /></feature>
+    <feature name="Camera"><param name="android-package" value="org.apache.cordova.camera.CameraLauncher" /></feature>
+    <feature name="Contacts"><param name="android-package" value="org.apache.cordova.contacts.ContactManager" /></feature>
+    <feature name="Device"><param name="android-package" value="org.apache.cordova.device.Device" /></feature>
+    <feature name="Accelerometer"><param name="android-package" value="org.apache.cordova.devicemotion.AccelListener" /></feature>
+    <feature name="Compass"><param name="android-package" value="org.apache.cordova.deviceorientation.CompassListener" /></feature>
+    <feature name="Notification"><param name="android-package" value="org.apache.cordova.dialogs.Notification" /></feature>
+    <feature name="File"><param name="android-package" value="org.apache.cordova.file.FileUtils" /></feature>
+    <feature name="FileTransfer"><param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" /></feature>
+    <feature name="Geolocation"><param name="android-package" value="org.apache.cordova.geolocation.GeoBroker" /></feature>
+    <feature name="Globalization"><param name="android-package" value="org.apache.cordova.globalization.Globalization" /></feature>
+    <feature name="InAppBrowser"><param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" /></feature>
+    <feature name="Media"><param name="android-package" value="org.apache.cordova.media.AudioHandler" /></feature>
+    <feature name="Capture"><param name="android-package" value="org.apache.cordova.mediacapture.Capture" /></feature>
+    <feature name="NetworkStatus"><param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" /></feature>
+    <feature name="SplashScreen"><param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" /></feature>
+    <feature name="Vibration"><param name="android-package" value="org.apache.cordova.vibration.Vibration" /></feature>
+	
+	<!-- additional external library plugins -->
+	<feature name="BackgroundServicePlugin"><param name="android-package" value="com.red_folder.phonegap.plugin.backgroundservice.BackgroundServicePlugin" /></feature>
+	
+	<!-- additional plugins -->
+	<feature name="AndroidPreferences"><param name="android-package" value="org.apache.cordova.plugins.AndroidPreferences" /></feature>
+	<feature name="Appstore"><param name="android-package" value="org.apache.cordova.plugins.Appstore" /></feature>
+	<feature name="HomeButton"><param name="android-package" value="org.apache.cordova.plugins.HomeButton" /></feature>
+	<feature name="PackageVersion"><param name="android-package" value="org.apache.cordova.plugins.PackageVersion" /></feature>
+	<feature name="PreferredScreenSize"><param name="android-package" value="org.apache.cordova.plugins.PreferredScreenSize" /></feature>
+	<feature name="Share"><param name="android-package" value="org.apache.cordova.plugins.Share" /></feature>
+	<feature name="Toasts"><param name="android-package" value="org.apache.cordova.plugins.Toasts" /></feature>	
+	
+</widget>
