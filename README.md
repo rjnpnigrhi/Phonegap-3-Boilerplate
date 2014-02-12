@@ -4,9 +4,7 @@ Phonegap Android Production Ready Boilerplate
 This is a boilerplate for Creating Android Apps with Cordova 3.1.0.
 <br>
 Basically this was created for one of my personal project.
-If you are a JavaScript/Web developer and don't know the "J" of Java then you might be able to generate an .apk file from the official docs of Phonegap.
-But if you want to submit it to Play Store then you need a Production Ready .apk file
-which I find pretty hard to generate by following the official Phonegap docs.
+If you are a JavaScript/Web developer and kinda feel like you don't know the "J" of Java then you might just be able to generate an .apk file from the official docs of Phonegap. But if you want to submit it to Play Store then you need a Production Ready .apk file which I find pretty hard to generate by following the official Phonegap docs.
 
 In this repo you will find a "almost" Production Ready Corodova Project for Eclipse.
 <br>
@@ -29,13 +27,13 @@ With this you will be able to generate a .apk file which can be installed to you
 <br>
 7 - Just follow the onscreen instructions to generate "key" file (If you don't have one). This is dead easy, just put your details and some passwords.
 <br>
-Following all these steps you should be end up with a Production Ready .apk file.
+Following all these steps, you should be end up with a Production Ready .apk file. If you are getting any error while trying to compile/run the App on AVD please try installing PhoneGap via NPM and then try again. 
 <br>
-*Pro Info: Step 7 will generate the compiled, signed, aligned, and ready for distribution .apk file. You can directly submit that to the Play Store.
+*Pro Info: Step 7 will generate the compiled, signed, aligned, and ready for distribution .apk file. You can directly submit that to the Play Store. No need to zipalign bla bla it after exporting.
 <br>
 Enjoy!
 
 
 License
 =======
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU LesserGeneral Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. To read more about the GNU Lesser General Public License that belongs to this program, see http://www.gnu.org/licenses/
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. To read more about the GNU Lesser General Public License that belongs to this program, see http://www.gnu.org/licenses/
